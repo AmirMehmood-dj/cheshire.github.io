@@ -337,7 +337,14 @@
     max-width: 50%; /* Ensures each item doesn't exceed 50% */
   }
 }
+.green-text {
+    color: #01d28e;
+}
 
+.white-text {
+    color: white;
+    
+}
 
 /* For very small screens (480px and below) */
 @media (max-width: 480px) {
@@ -362,16 +369,29 @@
         font-weight: 1000;
         margin: auto;
     }
+    .green-text {
+    color: #01d28e;
+}
+
+.white-text {
+    color: white;
+    
+}
   #hello{
     background-color: white;
   }
+}
+
+.container a img {
+    width: 12rem;
+    height: 3.5rem;
 }
   </style>
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-        <a class="navbar-brand" href="index.html">CHESHIRE <span>TRACKS<span> LTD</span></a>
+        <a class="navbar-brand" href="index.html"><img src="images/carlogo5.png" alt=""></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -393,8 +413,13 @@
     
     <div class="hero-wrap" style="background-image: url(images/about.jpg)" >
       <div class="overlay"></div>
-      <h1 class="mb-4">Get in Touch with Us!</h1>
-      <p class="hero-text">We're here to assist you with all your private hire vehicle inquiries.</p>
+      <h1 class="mb-4">
+        <span class="green-text">We Provide reliable</span>
+        <span class="white-text">  private hire</span>
+        <span class="white-text"> <br>vehicles in the North West.</span>
+    </h1>
+      <!-- <p class="hero-text">We Provide reliable private hire vehicles in the North West.</p> -->
+
   </div>
   
 
